@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <link rel="stylesheet" href="chola.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+
+<h2>Aplication Form</h2>
+
+<div class="form-group">
+    <label for="firstname">First Name</label>
+            <input id="firstname" name="firstname" type="text" class="form-control" placeholder="Enter Fisrt Name" required>
+<br><br>
+</div>
+
+<div class="form-group">
+    <label for="lastname" >Last Name</label>
+        <input id="lastname" name="lastname" type="text" class="form-control" placeholder="Enter Last Name" required>
+ <br><br>
+</div>
+
+<div class="form-group password-group">
+    <label for="password">Password</label>
+    <div class="password-wrapper">
+        <input id="password" name="password" type="password" class="form-control" placeholder="Enter password" required>
+        <button type="button" class="toggle-password" aria-label="Show password" arial-pressed="false" title="Show password">
+            <span aria-hidden="true">👁️</span>
+             </button>
+    </div>
+</div>
+<br><br>
+
+<div class="form-group password-group">
+    <label fo="rconfirmpassword"> Confirm Password</label>
+   <div class="password-wrapper">
+         <input id="confirmpassword" name="confirmpassword" type="password" class="form-control" placeholder="Re-enter password" required>
+        <button type="button" class="toggle-password" aria-label="Show password" arial-pressed="false" title="Show password">
+            <span aria-hidden="true">👁️</span>
+</button>
+    </div>
+</div>
+<br><br>
+
+<div class="form-group">
+        <label for="nrc">NRC</label>
+    <input id="nrc" name="nrc" type="text" class="form-control" placeholder="Enter NRC number" required>
+ <br><br>
+</div>
+
+<div class="form group">
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" type="text" class="form-control" placeholder="Enter phone number" required>
+    <br><br>
+</div>
+
+<div class="form-group">
+    <label for="address" >Address</label>
+        <input id="address" name="address" type="text" class="form-control" placeholder="Enter address" required>
+<br><br>
+</div>
+
+<div class="form-group">
+    <label for="dob"> Date of Birth</label>
+        <input id="dob" name="dob" type="date" class="form-control" required>
+<br><br>
+</div>
+
+
+<button type="submit">Submit</button>
+
+<p id="error"></p>
+
+    </div>
+
+ </form>
+
+<script src="chola.js"></script>
+
+</body>
+</html>
